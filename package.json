@@ -1,7 +1,7 @@
 {
-  "name": "blan-module",
+  "name": "skeleton-module",
   "version": "1.0.0",
-  "description": "My new Decentraland project",
+  "description": "A Decentraland skeleton module",
   "scripts": {
       "start": "dcl start",
       "build": "build-ecs",
