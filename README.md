@@ -7,10 +7,12 @@
 - In this folder run `npm link skeleton-module`
 - in **/src/game.ts** paste the following:
 
-`import { CustomUI } from '../node_modules/skeleton-module/src/customUI'
+`
+import { CustomUI } from '../node_modules/skeleton-module/src/customUI'
 
 var customUI = new CustomUI()
-customUI.ShowPrompt()`
+customUI.ShowPrompt()
+`
 
 - Run the project with `dcl start`
 - observe the error `Error: These modules didn't load: node_modules/skeleton-module/src/customUI, @dcl/ui-scene-utils, src/game`
