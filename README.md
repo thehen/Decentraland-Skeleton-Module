@@ -5,7 +5,7 @@
 - Create a new folder somewhere else called **master-project**
 - In this new folder run `dcl init` to create a new empty project
 - In this folder run `npm link skeleton-module`
-- in **game.ts** paste the following:
+- in **/src/game.ts** paste the following:
 
 `import { CustomUI } from '../node_modules/skeleton-module/src/customUI'
 
